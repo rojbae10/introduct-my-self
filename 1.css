@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.d80984b94030618f6f541c011fbd3a3a?rik=naXLotiNWEMLng&pid=ImgRaw&r=0) ;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.next{
+    text-decoration:none;
+    color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 60%;
+    display: inline-block;
+}
+.link{
+    text-decoration:none;
+    color: lightslategray;
+    left: 5%;
+}
+.link1{
+    text-decoration:underline;
+    color: lightslategray;
+}
+#r{
+ border: 1px solid none;
+ background-color: lightcyan;
+ width: 250px;
+ height: auto;
+ border-radius: 50px;
+}
+#name{
+    text-align: center;
+    color: rgb(250, 246, 246);
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+#hi{
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+    
+
+
